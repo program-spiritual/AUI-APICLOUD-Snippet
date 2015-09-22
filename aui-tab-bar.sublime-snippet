@@ -1,0 +1,19 @@
+
+        <snippet>
+    <content><![CDATA[
+   <div class="aui-content-padded">
+    <div class="aui-tab">
+        <ul class="aui-tab-nav aui-tab-border" id="demo2">
+            <li class="active">标签一</li>
+            <li>标签二</li>
+            <li>标签三</li>
+        </ul>
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-tab-bar</tabTrigger>
+    <description>tab边框样式</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

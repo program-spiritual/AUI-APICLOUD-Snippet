@@ -1,0 +1,25 @@
+
+        <snippet>
+    <content><![CDATA[
+    <div class="aui-content">
+        <ul class="aui-list-view">
+            <li class="aui-list-view-cell" data-win="list_arrow">
+                <div class="aui-arrow-right">带有角标和箭头的列表</div>
+            </li>
+            <li class="aui-list-view-cell" data-win="list_thumb">
+                <div class="aui-arrow-right">带有角标和箭头的列表</div>
+            </li>
+            <li class="aui-list-view-cell" data-win="list-image">
+                <div class="aui-arrow-right aui-ellipsis-1">
+                如果标题太长可以加一个省略来控制一下如果标题太长可以加一个省略来控制一下
+                </div>
+            </li>
+        </ul>
+    </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-list-count</tabTrigger>
+    <description>计数列表</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

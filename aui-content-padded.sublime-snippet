@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="aui-content-padded">
+<ul class="aui-list-view">
+<li class="aui-list-view-cell"></li>
+</ul>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-content-padded</tabTrigger>
+     <description>内容布局增加了10px的内边距</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

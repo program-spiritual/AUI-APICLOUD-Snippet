@@ -1,0 +1,19 @@
+
+
+        <snippet>
+    <content><![CDATA[
+    
+<ul class="aui-list-view">
+  
+    <li class="aui-list-view-cell aui-switch-body">
+        <div class="aui-switch-title">开关样式4</div>
+        <input type="checkbox" class="aui-switch aui-switch-success aui-pull-right" checked>
+    </li>
+</ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-switch-suc</tabTrigger>
+    <description>天蓝色开关样式</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

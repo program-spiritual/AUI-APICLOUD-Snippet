@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[
+		<p><button class="aui-btn aui-btn-danger aui-btn-block">默认按钮(danger)</button></p>
+		]]>
+	</content>
+	<tab>Trigger>aui-block-red</tabTrigger>
+	<description>块按钮暗红色</description>
+</snippet>

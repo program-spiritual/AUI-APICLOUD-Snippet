@@ -1,0 +1,40 @@
+
+        <snippet>
+    <content><![CDATA[
+   <ul class="aui-user-view">
+        <li class="aui-user-view-cell aui-img">
+            <img class="aui-img-object aui-pull-left" src="../image/demo4.png">
+            <div class="aui-img-body">
+                <span>流浪男<em>11.1KM</em></span>
+                <p class='aui-ellipsis-1'>北京轻元素网络科技</p>
+            </div>
+        </li>
+        <li class="aui-user-view-cell aui-img">
+            <img class="aui-img-object aui-pull-left" src="../image/demo1.png">
+            <div class="aui-img-body">
+                <span>张三<em>11.1KM</em></span>
+                <p class='aui-ellipsis-1'>北京轻元素网络科技</p>
+            </div>
+        </li>
+        <li class="aui-user-view-cell aui-img">
+            <img class="aui-img-object aui-pull-left" src="../image/demo2.png">
+                  <div class="aui-img-body">
+                <span>张三叫李四<em>11.1KM</em></span>
+                <p class='aui-ellipsis-1'>北京轻元素网络科技</p>
+            </div>
+        </li>
+        <li class="aui-user-view-cell aui-img">
+            <img class="aui-img-object aui-pull-left" src="../image/demo3.png">
+            <div class="aui-img-body aui-arrow-right">
+                <span>李四叫王五</span>
+                <p class='aui-ellipsis-1'>北京轻元素网络科技</p>
+            </div>
+        </li>
+    </ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-list-contact</tabTrigger>
+    <description>联系人列表</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

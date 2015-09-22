@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+  	aui-text-right
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-text-r</tabTrigger>
+    <description>文本右对齐</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

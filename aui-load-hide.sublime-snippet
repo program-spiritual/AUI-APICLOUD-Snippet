@@ -1,0 +1,13 @@
+
+       <snippet>
+    <content><![CDATA[
+ function hide(){
+        $api.remove($api.dom('.aui-loading'));
+    }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-load-hide</tabTrigger>
+    <description>隐藏效果</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <scope>source.js</scope>
+</snippet>

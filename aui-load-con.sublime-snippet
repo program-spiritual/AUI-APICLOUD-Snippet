@@ -1,0 +1,25 @@
+
+
+       <snippet>
+    <content><![CDATA[
+  apiready = function(){
+        api.parseTapmode();
+        $api.append($api.dom('body'),'<div class="aui-loading"><div class="aui-loading-1"></div><div class="aui-loading-2"></div></div>');
+    }
+    function hide(){
+        $api.remove($api.dom('.aui-loading'));
+    }
+    function show(){
+        var loading = $api.dom(".aui-loading");
+        if(!loading){
+            $api.append($api.dom('body'),'<div class="aui-loading"><div class="aui-loading-1"></div><div class="aui-loading-2"></div></div>');
+        }
+        
+    }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-load-con</tabTrigger>
+    <description>load全部代码</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,19 @@
+
+
+        <snippet>
+    <content><![CDATA[
+    
+ <div class="aui-chat-sender">
+        <div class="aui-chat-sender-avatar"><img src="../image/demo1.png"></div>
+        <div class="aui-chat-sender-cont">
+            <div class="aui-chat-right-triangle"></div>
+            <span>位置-->右</span>
+        </div>
+    </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-chat-sender</tabTrigger>
+    <description>聊天发送者样式</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

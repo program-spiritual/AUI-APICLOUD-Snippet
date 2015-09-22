@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+  	<h4>${1:H4标题16px}</h4>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-h4</tabTrigger>
+    <description>H4标题16px</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

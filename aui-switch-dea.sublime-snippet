@@ -1,0 +1,18 @@
+
+
+        <snippet>
+    <content><![CDATA[
+    
+<ul class="aui-list-view">
+    <li class="aui-list-view-cell aui-switch-body">
+        <div class="aui-switch-title">声音提醒</div>
+        <input type="checkbox" class="aui-switch aui-pull-right" checked>
+    </li>
+</ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-switch-dea</tabTrigger>
+    <description>默认开关样式</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

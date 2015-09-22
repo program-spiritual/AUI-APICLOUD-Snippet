@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[
+		<p><button class="aui-btn aui-btn-primary aui-btn-block">默认按钮(primary)</button></p>
+		]]>
+	</content>
+	<tab>Trigger>aui-block-pri</tabTrigger>
+	<description>块按钮墨绿色</description>
+</snippet>

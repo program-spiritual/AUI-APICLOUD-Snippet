@@ -1,0 +1,78 @@
+
+        <snippet>
+    <content><![CDATA[
+   <div class="aui-content">
+    <ul class="aui-grid-sixteen">
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-pay aui-text-primary"></span>
+            <p>${1:栏目1}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-send aui-text-danger"></span>
+            <p>${2:栏目2}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-shop aui-text-warning"></span>
+            <p>${3:栏目3}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-ticket aui-text-pink"></span>
+            <p>${4:栏目4}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-cascades aui-text-dark"></span>
+            <p>${5:栏目5}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-discover aui-text-info"></span>
+            <p>${6:栏目6}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-scan aui-text-blue"></span>
+            <p>${7:栏目7}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-settings aui-text-danger"></span>
+            <p>${8:栏目8}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-form aui-text-warning"></span>
+            <p>${9:栏目9}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-pic aui-text-warning"></span>
+            <p>${10:栏目10}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-filter aui-text-pink"></span>
+            <p>${11:栏目11}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-footprint aui-text-dark"></span>
+            <p>${12:栏目12}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-home aui-text-danger"></span>
+            <p>${13:栏目13}</p>
+        </li>
+         <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-profile aui-text-warning"></span>
+            <p>${14:栏目14}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-qrcode aui-text-pink"></span>
+            <p>${15:栏目15}</p>
+        </li>
+        <li class="aui-col-xs-3 aui-text-center">
+            <span class="aui-iconfont aui-icon-service aui-text-dark"></span>
+            <p>${16:栏目16}</p>
+        </li>
+    </ul>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-grid-sixteen</tabTrigger>
+    <description>十六宫格</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

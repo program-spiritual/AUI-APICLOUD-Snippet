@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[
+		<p><button class="aui-btn aui-btn-success aui-btn-block">默认按钮(success)</button></p>
+		]]>
+	</content>
+	<tab>Trigger>aui-block-suc</tabTrigger>
+	<description>块按钮草绿色</description>
+</snippet>

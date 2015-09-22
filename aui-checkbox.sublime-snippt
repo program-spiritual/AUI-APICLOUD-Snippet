@@ -1,0 +1,37 @@
+
+
+        <snippet>
+    <content><![CDATA[
+   <div class="aui-form">
+    <div class="aui-input-row">
+        <label class="aui-input-addon">checkbox</label>
+        <input class="aui-pull-right aui-checkbox" type="checkbox">
+    </div>
+    <div class="aui-input-row">
+        <label class="aui-input-addon">checkbox</label>
+        <input class="aui-pull-right aui-checkbox aui-checkbox-info" type="checkbox">
+    </div>
+    <div class="aui-input-row">
+        <label class="aui-input-addon">checkbox</label>
+        <input class="aui-pull-right aui-checkbox aui-checkbox-success" type="checkbox" checked>
+    </div>
+     <div class="aui-input-row">
+        <label class="aui-input-addon">checkbox</label>
+        <input class="aui-pull-right aui-checkbox aui-checkbox-success" type="checkbox" checked>
+    </div>
+    <div class="aui-input-row">
+        <input class="aui-checkbox aui-checkbox-danger" type="checkbox">
+        <label class="aui-input-addon">checkbox</label>
+    </div>
+    <div class="aui-input-row">
+        <input class="aui-checkbox aui-checkbox-warning" type="checkbox">
+        <label class="aui-input-addon">checkbox</label>
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-checkbox</tabTrigger>
+    <description>多选框</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

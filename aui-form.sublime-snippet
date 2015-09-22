@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+    	<div class="aui-form">
+    <div class="aui-input-row">
+        <label class="aui-input-addon">name</label>
+        <input type="text" class="aui-input" placeholder="name"/>
+    </div>
+    <div class="aui-input-row">
+        <span class="aui-input-addon">pass</span>
+        <input type="password" class="aui-input" placeholder="password"/>
+    </div>
+    	<div class="aui-input-row">
+        <span class="aui-input-addon">num</span>
+        <input type="number" class="aui-input" placeholder="number"/>
+    </div>
+    <div class="aui-input-row">
+        <span class="aui-input-addon">email</span>
+        <input type="email" class="aui-input" placeholder="email"/>
+    </div>
+    <div class="aui-input-row">
+        <span class="aui-input-addon">url</span>
+        <input type="url" class="aui-input" placeholder="http://"/>
+    </div>
+  	    <div class="aui-btn-row">
+        <div class="aui-btn aui-btn-success" onclick="return false;">确认</div>&nbsp;&nbsp;
+        <div class="aui-btn aui-btn-warning" onclick="return false;">取消</div>
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-form</tabTrigger>
+    <description>表单通用</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

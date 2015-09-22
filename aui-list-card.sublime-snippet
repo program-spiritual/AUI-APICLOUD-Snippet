@@ -1,0 +1,23 @@
+
+        <snippet>
+    <content><![CDATA[
+    <div class="aui-content aui-card">
+        <ul class="aui-list-view">
+            <li class="aui-list-view-cell" data-win="list_arrow">
+                单行列表标题效果
+            </li>
+            <li class="aui-list-view-cell" data-win="list_thumb">
+                单行列表标题效果
+            </li>
+            <li class="aui-list-view-cell" data-win="list-image">
+                单行列表标题效果
+            </li>
+        </ul>
+    </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-list-card</tabTrigger>
+    <description>单行列表标题效果</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

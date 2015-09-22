@@ -1,0 +1,10 @@
+	<snippet>
+    <content><![CDATA[
+  	底部工具栏进行了重写，可以结合api.openFrameGroup()完成切换
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-fnav-desc</tabTrigger>
+    <description>底部导航栏说明</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

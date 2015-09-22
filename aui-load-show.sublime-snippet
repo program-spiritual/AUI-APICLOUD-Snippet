@@ -1,0 +1,15 @@
+
+       <snippet>
+    <content><![CDATA[
+ function show(){
+        var loading = $api.dom(".aui-loading");
+        if(!loading){
+            $api.append($api.dom('body'),'<div class="aui-loading"><div class="aui-loading-1"></div><div class="aui-loading-2"></div></div>');
+        }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-load-show</tabTrigger>
+    <description>显示效果</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <scope>source.js</scope>
+</snippet>

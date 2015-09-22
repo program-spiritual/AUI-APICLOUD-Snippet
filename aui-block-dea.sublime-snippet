@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+ <p><button class="aui-btn aui-btn-block">${1:默认按钮(default)}</button></p>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-block-dea</tabTrigger>
+    <description>块按钮灰色</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

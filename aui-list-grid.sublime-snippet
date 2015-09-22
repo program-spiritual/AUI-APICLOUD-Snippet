@@ -1,0 +1,35 @@
+
+        <snippet>
+    <content><![CDATA[
+    <ul class="aui-list-view aui-grid-view">
+    <li class="aui-list-view-cell aui-img aui-col-xs-4">
+        <img class="aui-img-object" src="../image/demo3.png">
+    </li>
+    <li class="aui-list-view-cell aui-img aui-col-xs-4">
+        <img class="aui-img-object" src="../image/demo2.png">
+    </li>
+    <li class="aui-list-view-cell aui-img aui-col-xs-4">
+        <img class="aui-img-object" src="../image/demo5.png">
+    </li>
+</ul>
+<ul class="aui-list-view aui-grid-view">
+    <li class="aui-list-view-cell aui-img aui-col-xs-6">
+        <img class="aui-img-object" src="../image/demo4.png">
+        <div class="aui-img-body">
+            图文列表
+        </div>
+    </li>
+    <li class="aui-list-view-cell aui-img aui-col-xs-6">
+        <img class="aui-img-object" src="../image/demo3.png">
+        <div class="aui-img-body">
+            图文列表
+        </div>
+    </li>
+</ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-list-grid</tabTrigger>
+    <description>图片列表</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

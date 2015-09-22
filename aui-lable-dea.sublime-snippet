@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+        <span class="aui-input-addon ${1:aui-label-default}  aui-iconfont aui-icon-${2:lock}" ></span>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-lable-dea</tabTrigger>
+    <description>标签背景灰色</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

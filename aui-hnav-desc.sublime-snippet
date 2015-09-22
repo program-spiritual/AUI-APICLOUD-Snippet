@@ -1,0 +1,19 @@
+	<snippet>
+    <content><![CDATA[
+  	<!--
+    AUI的顶部导航为6个色调(增加了.aui-bar-dark   color为#34495e)，并对$api.fixStatusBar(el)做了兼容出来，在结合该属性使用时需要注意一点。
+
+如果导航栏没有左右按钮时，必须要使用
+
+<header id="header"><div class="aui-bar aui-bar-nav"><div class="aui-title">名称</div></div></header>;
+如果做有左右按钮可以直接：
+
+<header id="header  class="aui-bar aui-bar-nav"><div class="aui-title">名称</div></header>;
+    -->
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-hnav-desc</tabTrigger>
+    <description>头部导航说明</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+<!--
+AUI目前只做针对apicloud的css，帮助开发者快速完成app布局，采用响应式布局兼容不同尺寸的手机端。完整版体积在30k左右，压缩之后20k左右，用最少的代码完成app的布局，同时方便用户自定义和扩展。将解压后的文件保存到apicloud的css目录下。aui所有的样式均有aui-前缀。在布局app样式时，为了确保绘制和缩放的效果需要在<head>标签中添加 viewport 元数据标签
+<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+同时添加format-detection
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+加载上aui.css样式表，享受编程之美。
+<link rel="stylesheet" type="text/css" href="../css/aui.css" />
+注意，在win窗口中如果没有特别的处理，建议使用aui-win.css或aui-win.min.css
+AUI使用方式就是加载一个css样式表的过程。
+
+在压缩包里面会有5个文件，分别对应如下
+aui.css  —— 完整版
+aui.min.css —— 完整版压缩
+aui-win.css —— 适用于win窗口的样式（包含了头部、底部、tab菜单、按钮效果）
+aui-win.min.css —— win样式压缩
+aui_iconfont.ttf —— 字体图标文件。
+文件在使用时保存至APICloud项目的css文件夹内。
+-->
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-desc</tabTrigger>
+     <description>aui使用注意事项及说明</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

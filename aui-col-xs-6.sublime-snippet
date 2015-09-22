@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<p>
+<div class="aui-content">
+  <div class="aui-col-xs-6 aui-bg-primary">${1:aui-col-xs-6}</div>
+  <div class="aui-col-xs-6 aui-bg-info">${2:aui-col-xs-6}</div>
+</div>
+</p>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-col-xs-6</tabTrigger>
+    <description>格栅二等分</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

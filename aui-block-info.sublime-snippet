@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[
+		<p><button class="aui-btn aui-btn-info aui-btn-block">默认按钮(info)</button></p>
+		]]>
+	</content>
+	<tab>Trigger>aui-block-info</tabTrigger>
+	<description>块按钮天蓝色</description>
+</snippet>

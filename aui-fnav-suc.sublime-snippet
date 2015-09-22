@@ -1,0 +1,29 @@
+	<snippet>
+    <content><![CDATA[
+  	<footer class="aui-nav" id="aui-footer">
+        <ul class="aui-bar-tab">
+            <li class="${1:active-success}" id="tabbar1" onclick="randomSwitchBtn(this,'栏目1',0)">
+                <span class="aui-iconfont aui-icon-favor"></span>
+                <p>栏目1</p>
+            </li>
+            <li id="tabbar2" onclick="randomSwitchBtn(this,'栏目2',1)">
+                <span class="aui-iconfont aui-icon-mark"></span>
+                <p>栏目2</p>
+            </li>
+            <li id="tabbar3" onclick="randomSwitchBtn(this,'栏目3',2)">
+                <span class="aui-iconfont aui-icon-like"></span>
+                <p>栏目3</p>
+            </li>
+            <li id="tabbar4" onclick="randomSwitchBtn(this,'栏目4',3)">
+                <span class="aui-iconfont aui-icon-my"></span>
+                <p>栏目4</p>
+            </li>
+        </ul>
+    </footer>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-fnav-suc</tabTrigger>
+    <description>底部导航栏天蓝色</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
