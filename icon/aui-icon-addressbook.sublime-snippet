@@ -1,0 +1,9 @@
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-addressbook aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-addressbook</tabTrigger>
+    <description>联系簿</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

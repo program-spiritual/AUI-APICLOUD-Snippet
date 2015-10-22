@@ -1,0 +1,10 @@
+
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-voice aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-voice</tabTrigger>
+    <description>语音</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

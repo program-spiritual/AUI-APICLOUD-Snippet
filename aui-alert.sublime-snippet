@@ -1,0 +1,29 @@
+<snippet>
+	<content>
+		<![CDATA[
+		 /*自定义弹出层实用方法，注意将aui_alert_frm.html放入html文件夹，aui_alert.js放入script文件夹，结合api.js使用*/
+$aui.alert({
+            title:${1:'提示',}//标题
+            content:'你认为AUI是一个好框架吗',//中间内容，可以自定义html
+            buttons:['不是','是'],//按钮
+            radius:6,//圆角，默认为0
+            titleColor:'#ff3300',//标题颜色
+            contColor:'#333',//内容颜色
+            btnColor:''//按钮颜色
+        },function(ret){
+            //ret回调为按钮顺序
+            if(ret){
+                if(ret==0){
+                    alert("AUI没有得到你的认可我们会继续努力")
+                }else if(ret==1){
+                    alert("感谢你对AUI的支持")
+                }
+            }
+        })
+
+		]]>
+	</content>
+	<tabTrigger>aui-alert</tabTrigger>
+	<description>自定义弹出</description>
+		<scope>source.js</scope>
+</snippet>

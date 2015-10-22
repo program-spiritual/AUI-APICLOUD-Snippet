@@ -1,0 +1,9 @@
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-unlock aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-unlock</tabTrigger>
+    <description>打开锁</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

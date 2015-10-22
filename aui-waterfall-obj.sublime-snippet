@@ -1,0 +1,14 @@
+	<snippet>
+    <content><![CDATA[
+$aui.waterfall($api.byId("${1:aui-waterfall}"),{
+    col:${2:2},//列数
+    padding:${3:10},//容器内边距
+    space:${4:10}//列间距
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-waterfall-obj</tabTrigger>
+    <description>给指定dom对象配置瀑布流</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

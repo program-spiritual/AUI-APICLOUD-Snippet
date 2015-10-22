@@ -1,0 +1,19 @@
+
+    <snippet>
+    <content><![CDATA[
+   <div class="aui-content">
+        <div class="aui-form">
+            <div class="aui-input-row">
+                <label class="aui-input-addon">radio</label>
+                <div class="aui-pull-right">
+                    <input class="aui-radio" type="radio" name="demo1" checked><div class="aui-radio-name">选项一</div>
+                    <input class="aui-radio" type="radio" name="demo1"><div class="aui-radio-name">选项二</div>
+                </div>
+            </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-radio-name</tabTrigger>
+    <description>单选框</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>

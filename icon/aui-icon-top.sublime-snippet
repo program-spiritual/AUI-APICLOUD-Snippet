@@ -1,0 +1,10 @@
+
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-top aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-top</tabTrigger>
+    <description>置顶，回到顶部</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

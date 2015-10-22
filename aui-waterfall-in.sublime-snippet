@@ -1,10 +1,10 @@
-<snippet>
+	<snippet>
     <content><![CDATA[
-  <p><button class="aui-btn aui-btn-block aui-btn-outlined">默认按钮(default)</button></p>
+  <script type="text/javascript" src="../script/aui-waterfall.js" ></script>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>aui-block-dea</tabTrigger>
-    <description>块按钮灰色</description>
+    <tabTrigger>aui-waterfall-in</tabTrigger>
+    <description>引入瀑布流插件</description>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

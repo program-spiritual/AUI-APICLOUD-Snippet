@@ -1,0 +1,10 @@
+
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-flashlightclose aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-flashlightclose</tabTrigger>
+    <description>手电筒 关闭</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

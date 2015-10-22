@@ -1,0 +1,29 @@
+	<snippet>
+    <content><![CDATA[
+<div class="aui-content">
+<ul class="aui-waterfall" id="aui-waterfall"> 
+            <li>
+                <div class="aui-waterfall-header">
+                    <img src="../image/demo1.png" />
+                </div>
+               <div class="aui-waterfall-body">
+                    瀑布流的效果
+                </div>
+                <div class="aui-waterfall-footer"> 
+                    <span class="aui-text-info">
+                        流浪男
+                    </span>
+                    <span class="aui-pull-right">
+                        <i class="aui-iconfont aui-icon-likefill aui-text-warning"></i>
+                    </span>
+                </div>
+            </li>
+        </ul>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-waterfall-demo</tabTrigger>
+    <description>瀑布流对象内容格式</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!--<scope>source.js</scope>-->
+</snippet>

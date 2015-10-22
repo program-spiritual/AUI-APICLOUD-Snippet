@@ -1,0 +1,10 @@
+
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-noticefill aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-noticefill</tabTrigger>
+    <description>实心 提醒</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

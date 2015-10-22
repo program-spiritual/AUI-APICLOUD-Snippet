@@ -1,0 +1,10 @@
+
+  	<snippet>
+    <content><![CDATA[
+ <i class="aui-iconfont aui-icon-cameraaddfill aui-text-${1:warning}"></i>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-icon-cameraaddfill</tabTrigger>
+    <description>相机（添加）实心</description>
+    <!--<scope>source.js</scope>-->
+</snippet>

@@ -1,0 +1,20 @@
+    <snippet>
+    <content><![CDATA[
+   <div class="aui-form">
+    <div class="aui-input-row">
+        <label class="aui-input-addon">checkbox</label>
+        <div class="aui-pull-right">
+            <input class="aui-checkbox" type="checkbox">
+            <div class="aui-checkbox-name">选项一</div>
+            <input class="aui-checkbox" type="checkbox">
+            <div class="aui-checkbox-name">选项二</div>
+        </div>    
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-checkbox-name</tabTrigger>
+    <description>多选框</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.js</scope> -->
+</snippet>
