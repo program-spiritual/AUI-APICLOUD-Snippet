@@ -1,21 +1,59 @@
-              aui-sublime-snippetv1.2 版本说明
+aui-sublime-snippetv1.1.3 版本说明
                 此次更新和auicss.com官方一致
-一.下载安装说明：
-下载软件安装包，解压之后将文件夹放到你的安装目录下面
-例如：
-xxx\Sublime Text\Data\Packages\ ，就放到这个目录下面
-二.使用方法：
-输入'aui-'命令(不包含引号)加上下列对应的命令，接着按下Tab键
-例如：
-1.输入 aui-content  --> 再按下Tab键
-2.输出内容为:***********************
-<div class="aui-content">
-  <ul class="aui-list-view">
-  <li class="aui-list-view-cell"></li>
-  </ul>
-  </div>  
-  ***********************************
-以下就是对应的命令-----
+更多开源项目更新请访问面包工作室博客
+www.xiaomiwujiecao.com
+一. GitHub开源项目地址：https://github.com/xiaomiwujiecao/AUI-APICLOUD-Snippet
+注释/*$aui.alert $aui.waterfall $aui 快捷输出时 不输出，请自行加$aui*/
+例如：输入 aui-waterfall-obj + tab 键 输出的是
+.waterfall($api.byId("aui-waterfall"),{
+    col:2,//列数
+    padding:10,//容器内边距
+    space:10//列间距
+});
+请加上$aui在.waterfall之前
+完整代码：
+$aui.waterfall($api.byId("aui-waterfall"),{
+    col:2,//列数
+    padding:10,//容器内边距
+    space:10//列间距
+});
+
+不想进github的童鞋，我把aui-sublime-snippet的源码放在附件，方便下载
+=============================================================
+视频教程列表：
+auicss-sublime-snippet使用教程（1）aui-sublime-snippet的下载
+--------------------------------------------更新日志-------------------------------------------------------
+/*
+20151120
+增加aui-radio-disabled 快捷方式 命令为：aui-radio-disabled   然后按下tab键
+增加 aui-checkbox 快捷方式  命令为 ：aui-checkbox    然后按下tab键
+
+*/
+/*
+20151028
+增加auicss-sublime-snippet使用教程（1）aui-sublime-snippet的下载
+
+*/
+/*20151022
+  更新了 aui的alert 方法
+添加了块按钮的虚线边框
+增加了购物车页面
+更新了所有图标
+   */
+============================================================================================================
+1.说在前面：本开源项目是为了使用流浪男的AUI框架快速布局，方便大家用sublime3工具开发APP，
+
+2.AUI框架源文件见附件
+
+3.如果有问题、BUG或者建议，请联系我 邮箱：1410200695@qq.com，我是小米无节操，我为自己带盐！！！！！！
+二.下载安装说明：
+
+
+
+补充说明：一般情况下，直接在html5页面直接调用，JS部分快速功能实现，只能在JS部分使用，以后能会慢慢封装好的方法进来
+以下就是对应的命令—–
+
+[page]
             ---页面布局类-----
 desc                        aui框架使用说明;
 content                     aui内容布局普通;
@@ -32,7 +70,7 @@ text-m                      文本居中对齐
 pull-l                       元素左对齐
 pull-r                       元素右对齐
   ------------普通按钮---------------------------
-btn-dea                        普通按钮灰色 
+btn-dea                        普通按钮灰色
 btn-info                        普通按钮天蓝色
 btn-pri                        普通按钮墨绿色
 btn-suc                        普通按钮草绿色
@@ -78,13 +116,15 @@ label-war                      标签背景橙黄色
 label-red                      标签背景暗红色
      ------------头部导航类---------------
 hnav-desc                      头部导航说明
-hnav-dark                      普通顶部导航栏 
+hnav-dark                      普通顶部导航栏
 hnav-fdark                     fixStatusBar效果
 hnav-t                          带文字提示效果  
 hnav-pri                        墨绿色顶部导航栏
 hnav-info                      翠绿色顶部导航栏
 hnav-red                      暗红色顶部导航栏
 hnav-war                      橙黄色图标顶部导航栏
+
+[page]
 ----------------底部导航栏--------------------
 fnav-desc                      底部导航栏说明
 fnav-dark                      底部导航栏暗色
@@ -110,10 +150,13 @@ tab-line                        下划线样式
 tab-bar                          边框样式
 -------------------表单----------------------
 form                               表单
--------------------多选框------------------------         
-checkbox                        多选框    
+-------------------多选框------------------------ 
+checkbox-name                行-多选框        
+checkbox                        多选框（有disabled）    
 ----------------单选框-------------------------
+radio-name                行-单选框        
 radio                              单选框
+radio-disabled                单选框 （有disabled）     
 -------------------switch开关--------------------------
 switch-dea                              灰色默认switch开关
 switch-pri                              墨绿色默认switch开关
@@ -136,10 +179,13 @@ waterfall-demo                      瀑布流对象内容格式
 ---------------------------------------------------------------------
 ----------------------------自定义弹出层----------------------------
 alert                                            js部分自定义弹出层   
-----------------单选框丨复选框--------------------------------       
-checkbox-name                                      复选框
-radio-name                                         单选框                                                                                                                               
-============================图标=========================================
+----------------单选框丨复选框--------------------------------    
+checkbox-name              复选框
+                                                                                                                   radio-name                                         单选框                                                                                                                 --------------------------------------购物车列表------------------------------------------          
+list-counter                                        购物车列表   
+
+[page]
+============================图标============================
 icon-appreciate                      点赞
 icon-check                            对号
 icon-close                             叉号
@@ -157,7 +203,7 @@ icon-search                         搜索
 icon-timefill                         实心时钟
 icon-time                               空心时钟
 icon-taxi                               出租车
-icon-unfold                         向下箭头    
+icon-unfold                         向下箭头   
 icon-warnfill                             实心警告
 icon-warn                                    空心警告
 icon-camerafill                               实心相机
@@ -167,14 +213,14 @@ icon-comment                             评论空心
 icon-likefill                             实心 喜欢
 icon-like                                   空心喜欢
 icon-notificationfill                   提醒  实心
-icon-notification                              提醒  空心 
+icon-notification                              提醒  空心
 icon-order                                次序
 icon-samefill                               实心 找相同
 icon-same                                   空心找相同
 icon-deliver                                物流分配
 icon-evaluate                              评价
 icon-pay                                    支付
-icon-send                                   发送邮件 
+icon-send                                   发送邮件
 icon-shop                                   空心 商家
 icon-ticket                                 券
 icon-back                                   返回
@@ -204,15 +250,15 @@ icon-delete                                 删除 空心
 icon-profile                            个人简介
 icon-home                                   实心  主页
 icon-message                                   消息
-icon-addressbook                                联系簿 
+icon-addressbook                                联系簿
 icon-link                                   链接
-icon-lock                                    关上锁 
-icon-unlock                                    打开锁 
+icon-lock                                    关上锁
+icon-unlock                                    打开锁
 icon-vip                                      vip（贵宾）
 icon-activity                                   活动
-icon-friendaddfill                              添加好友  实心 
+icon-friendaddfill                              添加好友  实心
 icon-friendadd                                  添加好友  空心  
-icon-friendfamous                               星标好友 
+icon-friendfamous                               星标好友
 icon-friend                                     好友
 icon-goods                                      商品
 icon-selection                                选择
@@ -225,7 +271,7 @@ icon-round                                      圆形
 icon-roundaddfill                              圆形 添加  实心
 icon-roundadd                                   圆形添加  空心
 icon-add                                        添加
-icon-notificationforbid                           关闭提醒 
+icon-notificationforbid                           关闭提醒
 icon-explorefill                                发现 填充  
 icon-fold                                      向上箭头
 icon-game                                        游戏
@@ -233,9 +279,9 @@ icon-redpacket                                红包
 icon-selectionfill                             实心 选择
 icon-similar                                   相似
 icon-appreciatefill                             实心 赞
-icon-infofill                               提示 实心 
-icon-info                                           提示 
-icon-forwardfill                              前进 实心 
+icon-infofill                               提示 实心
+icon-info                                           提示
+icon-forwardfill                              前进 实心
 icon-forward                                  前进 空心
 icon-rechargefill                            充值  实心
 icon-recharge                               充值 空心
@@ -245,38 +291,38 @@ icon-voicefill                                 语音 实心
 icon-friendfavor                             好友收藏
 icon-wifi                                          WIFI
 icon-share                                  分享
-icon-wefill                                     热点分享  实心 
+icon-wefill                                     热点分享  实心
 icon-we                                     热点分享
 icon-lightauto                               闪电 自动  
 icon-lightforbid                                闪电 禁止
 icon-light                                  闪电 空心
-icon-lightfill                               闪电 实心 
-icon-camerarotate                            旋转相机 
-icon-barcode                                 条形码 
-icon-flashlightcolse                         手电筒  关闭 
+icon-lightfill                               闪电 实心
+icon-camerarotate                            旋转相机
+icon-barcode                                 条形码
+icon-flashlightcolse                         手电筒  关闭
 icon-flashlightopen                          手电筒   打开  
 icon-searchlist                              搜索 列表
 icon-service                                 客服
 icon-sort                                     分类
 icon-down                                     下载
 icon-mobile                                  手机
-icon-copy                                      拷贝 
-icon-countdownfill                           实心 倒计时 
+icon-copy                                      拷贝
+icon-countdownfill                           实心 倒计时
 icon-countdown                               空心 倒计时
 icon-noticefill                           实心提醒
 icon-notice                          空心 提醒      
 icon-upstagefill                          奖杯 实心
 icon-upstage                               奖杯 空心
 icon-choicenessfill                       精选  实心
-icon-choiceness                           精选 空心 
+icon-choiceness                           精选 空心
 icon-clothesfill                            衣服 实心
 icon-clothes                                衣服 空心
 icon-creativefill                          创造性 实心
 icon-creative                             创造性 空心
 icon-female                               女士
 icon-male                                  男士
-icon-keyboard                             键盘 
-icon-pullleft                            左拉 
+icon-keyboard                             键盘
+icon-pullleft                            左拉
 icon-pullright                            右拉
 icon-rankfill                                 排列  实心
 icon-rank                                     排列   空心
@@ -299,9 +345,9 @@ icon-peoplefill                            个人 实心
 icon-people                               个人 空心
 icon-servicefill                           实心 客服
 icon-repair                               空心 维修
-icon-file                                 文件 
+icon-file                                 文件
 icon-repairfill                          实心  维修
-icon-taoxiaopu                           淘小铺 
+icon-taoxiaopu                           淘小铺
 icon-attentionfill                      实心  关注
 icon-attention                         空心  关注
 icon-commandfill                        实心 秘钥
@@ -311,7 +357,7 @@ icon-community                           空心   聊天
 icon-read                               阅读
 icon-calendar                           日历
 icon-cut                                剪切
-icon-magic                              魔法棒 
+icon-magic                              魔法棒
 icon-backwardfill                        上一首 实心
 icon-forwardfill                        下一首  实心
 icon-playfill                           实心 播放
@@ -323,7 +369,7 @@ icon-move                                编辑移除
 icon-all                               全选
 icon-backdelete                           回删
 icon-hotfill                            热门  实心
-icon-hot                                热门  空心 
+icon-hot                                热门  空心
 icon-post                                发表文章
 icon-radiobox                           录音机
 icon-rounddown                          圆形下拉   
@@ -331,18 +377,18 @@ icon-upload                             上传
 icon-videofill                         视频播放器  实心
 icon-writefill                        编写 实心
 icon-write                             编写
-icon-radioboxfill                      录音机 实心 
+icon-radioboxfill                      录音机 实心
 icon-punch                             传真机
 icon-shake                            摇一摇
 icon-add1                              添加   十字形状
 icon-move1                             移动    一字形状
 icon-safe                            安全
 icon-activityfill                       活动  实心
-icon-crownfill                        王冠  实心 
+icon-crownfill                        王冠  实心
 icon-crown                             王冠   空心
 icon-goodsfill                         商品 实心
 icon-messagefill                       消息  实心
-icon-profilefill                       个人资料  实心 
+icon-profilefill                       个人资料  实心
 icon-sound                             声音
 icon-sponsorfill                   赞助商     实心
 icon-weunblock                          热点  解锁
@@ -354,4 +400,3 @@ icon-baby                                 婴儿用品  空心
 
 
 ============================================================
-            
