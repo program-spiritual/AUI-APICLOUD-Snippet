@@ -1,0 +1,10 @@
+{
+			"name": "AUI-APICLOUD-Snippet",
+			"details": "https://github.com/xiaomiwujiecao/AUI-APICLOUD-Snippet",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		}
