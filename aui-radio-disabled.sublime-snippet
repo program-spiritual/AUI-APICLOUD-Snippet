@@ -1,0 +1,33 @@
+
+        <snippet>
+    <content><![CDATA[
+    	<!--新增div选择样式aui-radio  aui-checkbox   <div class="aui-radio aui-checked"></div> 选中状态为aui-checked  禁止选择样式为aui-disabled，主题选择aui-radio-*，可结合js完成选择-->
+        <div class="aui-form">
+    <div class="aui-input-row">
+        <label class="aui-input-addon">radio</label>
+        <input class="aui-pull-right aui-radio" type="radio" name="demo">
+    </div>
+    <div class="aui-input-row">
+        <label class="aui-input-addon">radio</label>
+        <input class="aui-pull-right aui-radio aui-checked aui-radio-info" type="radio" name="demo">
+    </div>
+       <div class="aui-input-row">
+        <label class="aui-input-addon">radio</label>
+        <input class="aui-pull-right aui-radio aui-radio-success" type="radio" name="demo" checked>
+    </div>
+    <div class="aui-input-row">
+        <input class="aui-radio aui-radio-danger" type="radio" name="demo">
+        <label class="aui-input-addon">radio</label>
+    </div>
+    <div class="aui-input-row">
+        <input class="aui-radio aui-disabled aui-radio-warning" type="radio" name="demo">
+        <label class="aui-input-addon">radio</label>
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-radio</tabTrigger>
+    <description>单选框默认无法选择</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
