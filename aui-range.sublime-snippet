@@ -1,0 +1,21 @@
+	<snippet>
+    <content><![CDATA[
+  	$aui.range($api.byId("range"),function(ret){
+    $api.text($api.byId("value-1"),ret);
+})
+$aui.range($api.byId("range2"),function(ret){
+    $api.text($api.byId("value-2"),ret);
+})
+var demo = $api.domAll(".demo");
+for(var i=0,len=demo.length;i<len;i++){
+    demo[i].addEventListener("change",function(){
+        $api.text($api.byId("value"),this.value);
+    });
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aui-range</tabTrigger>
+    <description>进度条js部分</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope> 
+</snippet>
