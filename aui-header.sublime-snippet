@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+		<![CDATA[
+<header class="aui-bar aui-bar-nav aui-bar-warning" id="aui-header">
+        <a class="aui-btn aui-btn-warning aui-pull-left" tapmode onclick="api.closeWin();">
+            <span class="aui-iconfont aui-icon-left"></span>
+        </a>
+        <div class="aui-title">请重命名</div>
+    </header>
+		]]>
+	</content>
+	<tabTrigger>aui-header</tabTrigger>
+	<description>头部</description>
+		<!--<scope>source.js</scope>-->
+</snippet>
